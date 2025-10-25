@@ -149,7 +149,7 @@ sudo /home/noise_type/noiseenv/bin/python3.10 2_Noise_type_identification_X_benc
 📊 **Example Workflow:**
 
 - Organize dataset (Car, Exhibition, Station with SNR subfolders)
-- Augment speech files using speech_files_augmentation(2).py
+- Augment speech files using speech_files_augmentation.py
 - Train CNN using 1_Noise_type_identification_X.py
 - Save model checkpoint (noise_classifier_6layers_best.pth)
 - Benchmark model using 2_Noise_type_identification_X_benchmark.py
